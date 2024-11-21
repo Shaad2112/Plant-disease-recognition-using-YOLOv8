@@ -1,5 +1,5 @@
 import openai
-openai.api_key="sk-abcdef1234567890abcdef1234567890abcdef12"
+openai.api_key="YOUR API"
 
 def chat_with_gpt(prompt):
     response=openai.ChatCompletion.create(
